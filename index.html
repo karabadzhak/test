@@ -4,8 +4,353 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://kit.fontawesome.com/75c4646f88.js" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </head>
 <body>
-	<h2>Hello world!</h2>
+	<header class="header">
+		<div class="container-large">
+			<div class="header-logo">
+				<img src="img/Logo.svg" alt="">
+			</div>
+			<ul class="header-info">
+				<li class="header-lang">
+					<a href="#">УК</a>
+					<a href="#">РУ</a>
+					<a class="lang-active" href="#">EN</a>
+				</li>
+				<li class="header-adress"><span >Kyiv, Mechnikova str, 14/1</span></li>
+				<li class="header-tel"><a href="tel:0800211927">0800 211 927</a></li>
+				<li class="header-fb"><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+			</ul>
+			<nav class="header-nav">
+				<input type="checkbox" id="menu_checkbox">
+				<label for="menu_checkbox" class="burger-menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</label>
+				<ul class="nav-main">
+					<li><a href="#">about us</a></li>
+					<li><a href="#">services</a></li>
+					<li><a href="#">team</a></li>
+					<li><a href="#">publications</a></li>
+					<li><a href="#">contact</a></li>
+				</ul>
+			</nav>				
+		</div>
+	</header>
+	<main>
+		<div class="wrapper">
+			<div class="intro">
+				<h1>you legal solutions provider</h1>
+				<a class="inro-scroll" href="#wrapper-slider">
+					<div class="scroll">
+						<div class="scroll-arrow">
+						</div>
+					</div>
+				</a>
+			</div>
+			<div id="wrapper-slider" class="wrapper-slider">
+				<div class="wrapper-slider_points">
+					<span class="tab">Consistent</span>
+       				<span class="tab">Customer oriented</span>
+        			<span class="tab">Innovative</span>
+        			<span class="tab">Business oriented</span>  
+				</div>
+				<div class="wrapper-slider_text">
+					<div class="tab_item">
+						<h2>We turn the idea of legal services</h2>
+						<p>Consolidating many years of experience and practice, the company's lawyers accompany complex projects and achieve a number of important decisions for the industry. Many of them form the practice of applying the law of the sea in Ukraine.</p>
+					</div>
+        			<div class="tab_item">
+        				<h2>Customer oriented</h2>
+        				<p>Consolidating many years of experience and practice, the company's lawyers accompany complex projects and achieve a number of important decisions for the industry. Many of them form the practice of applying the law of the sea in Ukraine.</p>
+        			</div>
+        			<div class="tab_item">
+        				<h2>Innovative</h2>
+        				<p>Consolidating many years of experience and practice, the company's lawyers accompany complex projects and achieve a number of important decisions for the industry. Many of them form the practice of applying the law of the sea in Ukraine.</p>
+        			</div>
+        			<div class="tab_item">
+        				<h2>Business oriented</h2>
+        				<p>Consolidating many years of experience and practice, the company's lawyers accompany complex projects and achieve a number of important decisions for the industry. Many of them form the practice of applying the law of the sea in Ukraine.</p>
+        			</div>
+				</div>
+			</div>
+			<div class="services">
+				<div class="container-large">
+					<div class="services-top_link wow bounceInLeft">
+						<a href="#">Services</a>
+					</div>
+					<p class="services__name wow bounceInLeft">What can we do better than others?</p>
+					<div class="services-items">
+						<div class="services-item wow bounceInUp">
+							<div class="services-item_logo">
+								<img src="img/Ecommerce.svg" alt="Ecommerce">
+							</div>
+							<h3 class="services-item_name"><a href="#"> IT and e-commerce</a></h3>
+							<p class="services-item_text">An endless stream of contracts, tax issues, labor relations, corporate papers - legal work distracts you from doing business. But there is not much work to do to hire an in-house lawyer.</p>
+						</div>
+						<div class="services-item wow bounceInUp">
+							<div class="services-item_logo">
+								<img src="img/Support.svg" alt="Support">
+							</div>
+							<h3 class="services-item_name"><a href="#"> Comprehensive daily legal support</a></h3>
+							<p class="services-item_text">In addition, over time, the work will become the same type and uninteresting for a full-time lawyer. And we know very well how difficult it is to find a good candidate with experience in the field of information technology in Ukraine.</p>
+						</div>
+						<div class="services-item wow bounceInUp">
+							<div class="services-item_logo">
+								<img src="img/Coprorate.svg" alt="Coprorate">
+							</div>
+							<h3 class="services-item_name"><a href="#"> Structuring corporate relationships</a></h3>
+							<p class="services-item_text">Instead of just providing legal services, we will hire a lawyer or a whole team that will fit into the daily life of your company.</p>
+						</div>
+						<div class="services-item wow bounceInUp">
+							<div class="services-item_logo">
+								<img src="img/Trust.svg" alt="Trust">
+							</div>
+							<h3 class="services-item_name"><a href="#"> Building contractual relations</a></h3>
+							<p class="services-item_text">Once a week, or week after month, you have your own lawyer by your side. Anyone in the company can catch it at the coffee maker and just talk about current affairs instead of waiting for update status.</p>
+						</div>
+						<div class="services-item wow bounceInUp">
+							<div class="services-item_logo">
+								<img src="img/Protection.svg" alt="Protection">
+							</div>
+							<h3 class="services-item_name"><a href="#"> Protection of business, intellectual property</a></h3>
+							<p class="services-item_text">And all the other time he will work on new diverse projects, so he will definitely not stop in professional development. One way or another, all Axon Partners will work for you instead of a corporate lawyer.</p>
+						</div>
+						<div class="services-item wow bounceInUp">
+							<div class="services-item_logo">
+								<img src="img/Court.svg" alt="Court">
+							</div>
+							<h3 class="services-item_name"><a href="#"> Judicial representation</a></h3>
+							<p class="services-item_text">Is it a small, medium-sized company or a market leader? Local business or multinational company? Do you have your own legal department or not?</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section class="team">
+			<div class="container-large">
+				<div class="team-slider">
+					<div class="team-slide">
+						<picture class="team-slide__img">
+							<source srcset="img/Team-1-low315.jpg" media="(max-width: 768px)">
+							<source srcset="img/Team-1-low1024.jpg" media="(max-width: 1024px)">
+							<source srcset="img/Team-1.jpg" media="(max-width: 1517px)">
+							<img src="img/Team-1-low.jpg" alt="image01">
+						</picture>
+						<div class="team-slide__content">
+							<a href="#">Команда</a>
+							<p>Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.</p>
+							<span class="team-slide__content-name">Олександр Олександровський</span>
+							<span class="team-slide__content-position">Керуючий партнер</span>
+						</div>
+					</div>
+					<div class="team-slide">
+						<div class="team-slide__img">
+							<picture>
+								<source srcset="img/Team-1-low315.jpg" media="(max-width: 768px)">
+								<source srcset="img/Team-1-low1024.jpg" media="(max-width: 1024px)">
+								<source srcset="img/Team-1.jpg" media="(max-width: 1440px)">
+								<img src="img/Team-1-low.jpg" alt="image01">
+							</picture>
+						</div>
+						<div class="team-slide__content">
+							<a href="#">Команда</a>
+							<p>Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.</p>
+							<span class="team-slide__content-name">Олександр Олександровський</span>
+							<span class="team-slide__content-position">Керуючий партнер</span>
+						</div>
+					</div>
+					<div class="team-slide">
+						<div class="team-slide__img">
+							<picture>
+								<source srcset="img/Team-1-low315.jpg" media="(max-width: 768px)">
+								<source srcset="img/Team-1-low1024.jpg" media="(max-width: 1024px)">
+								<source srcset="img/Team-1.jpg" media="(max-width: 1440px)">
+								<img src="img/Team-1-low.jpg" alt="image01">
+							</picture>
+						</div>
+						<div class="team-slide__content">
+							<a href="#">Команда</a>
+							<p>Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.</p>
+							<span class="team-slide__content-name">Олександр Олександровський</span>
+							<span class="team-slide__content-position">Керуючий партнер</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="partners">
+			<div class="container-large">
+				<span class="partners_text">They already trust us</span>
+				<div class="partners_block">
+					<div class="partner partner__hillel">
+						<img src="img/Hillel-Logo.png" alt="Hillel-Logo">
+					</div>
+					<div class="partner partner__wannabiz">
+						<img src="img/wannabiz.png" alt="wannabiz">
+					</div>
+					<div class="partner partner__tapgerin">
+						<img src="img/tapgerin.png" alt="tapgerin">
+					</div>
+					<div class="partner partner__3dlook">
+						<img src="img/3dlook.png" alt="3dlook">
+					</div>
+					<div class="partner partner__orangear">
+						<img src="img/Orangear.png" alt="orangear">
+					</div>
+					<div class="partner partner__adtelligent">
+						<img src="img/adtelligent.png" alt="adtelligent">
+					</div>
+					<div class="partner partner__clikky">
+						<img src="img/clikky.png" alt="clikky">
+					</div>
+					<div class="partner partner__ecofasing">
+						<img src="img/ecofasing.png" alt="ecofasing">
+					</div>
+					<div class="partner partner__infratek">
+						<img src="img/infratek.png" alt="infratek">
+					</div>
+					<div class="partner partner__citypark">
+						<img src="img/citypark.png" alt="citypark">
+					</div>
+					<div class="partner partner__artprint">
+						<img src="img/artprint.png" alt="artprint">
+					</div>
+					<div class="partner partner__ultimatecard">
+						<img src="img/ultimatecard.png" alt="ultimatecard">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="publications">
+			<div class="container-large">
+				<a class="publications__link wow bounceInLeft" href="#">Publications</a>
+				<p class="publications__name wow bounceInLeft">We have something to tell</p>
+				<div class="publications__slider">
+					<div class="publications__slider-block wow bounceInUp">	
+						<div class="publications__slider-content">
+							<div class="publications__slider-img">
+								<img src="img/publications__slider-img1.jpg" alt="img1">
+							</div>
+							<h4><a class="publications__slider-name" href="#">Equity associate</a></h4>
+							<span class="publications__slider-date">April 22</span>
+							<p class="publications__slider-text">I'm a jun on projects. I am a co-owner of a law firm. How it happened. Before entering my parents told me that if I…</p>
+						</div>
+					</div>
+					<div class="publications__slider-block wow bounceInUp">
+						<div class="publications__slider-content">
+							<div class="publications__slider-img">
+								<img src="img/publications__slider-img2.jpg" alt="img1">
+							</div>
+							<h4><a class="publications__slider-name" href="#">Penalty for the Good Corporation: what will happen to Google and others for violating the GDPR</a></h4>
+							<span class="publications__slider-date">September 29</span>
+							<p class="publications__slider-text">And why the recovery of 50 million euros could be a fateful precedent According to Mind.ua January 21 National Commission for Data Protection.</p>
+						</div>
+					</div>
+					<div class="publications__slider-block wow bounceInUp">
+						<div class="publications__slider-content">
+							<div class="publications__slider-img">
+								<img src="img/publications__slider-img3.jpg" alt="img1">
+							</div>
+							<h4><a class="publications__slider-name" href="#">Millennial Testament</a></h4>
+							<span class="publications__slider-date">August 19</span>
+							<p class="publications__slider-text">What and how modern vloggers, opinion leaders and crypto-millionaires will inherit A typical legacy of the Ukrainian generation X looks like this: an apartment in…</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="container-large">
+				<div class="footer__adress">
+					<span class="footer__adress-street">
+						Kyiv, Mechnikova str, 14/1
+					</span>
+					<a href="#" class="footer__adress-map">On map</a>
+				</div>
+				<div class="footer__legal">
+					<span class="footer__legal-text">
+						© 2021 HLEGAL Law company, LLC
+					</span>
+				</div>
+				<div class="footer__contacts">
+					<a class="footer__contacts-fb" href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+					<a class="footer__contacts-tel" href="tel:0800211927">0800 211 927</a>
+					<a class="footer__contacts-mail" href="mailto:contact@forstudy.space">contact@forstudy.space</a>
+				</div>
+			</div>
+		</footer>
+	</main>
+	<script src="./slick/slick.min.js"></script>
+	<script>
+	    $('.team-slider').slick({
+	        slidesToShow: 1,
+	        dots: true,
+	        centerMode:true,
+	        centerPadding: '0',
+	        slidesToScroll: 1,
+	        speed: 600,
+	        autoplay: false,
+	        autoplaySpeed: 2000,
+	    });
+	</script>
+	<script>
+	    const objSlider = {
+		    slidesToShow: 1,
+	        dots: false,
+	        arrows: false,
+	        slidesToScroll: 1,
+	        speed: 600,
+		    autoplay: true,
+		    mobileFirst: true,
+			autoplaySpeed: 2000,
+			responsive: [ 
+
+					{ 
+	                    breakpoint: 580, 
+	                    settings: { 
+	                        slidesToShow: 2, 
+	                        slidesToScroll: 1,
+	                    } 
+	                }, 
+	                { 
+	                    breakpoint: 1024, 
+	                    settings: { 
+	                        slidesToShow: 3, 
+	                        slidesToScroll: 1,
+	                    } 
+	                },  
+
+	                {
+	                	breakpoint: 1025,
+	                	settings: "unslick",
+	            	},
+	        ]
+	    }
+	    $('.publications__slider').slick(objSlider)
+	    $(window).on('resize', function(){
+	        if($(window).width() < 1025 && !$('.publications__slider').hasClass('slick-initialized')){
+	            $('.publications__slider').slick(objSlider);
+	        }
+	        if($(window).width() > 1025 && $('.publications__slider').hasClass('slick-initialized')){
+	            $('.publications__slider').slick('unslick');
+	        }
+		});
+	</script>
+	<script>
+    $(".wrapper-slider .tab").click(function() {
+        $(".wrapper-slider .tab").removeClass("active").eq($(this).index()).addClass("active");
+        $(".tab_item").hide().eq($(this).index()).fadeIn()
+    }).eq(0).addClass("active");
+    </script>
+    <script src="js/wow.min.js"></script>
+    <script> new WOW().init(); </script>
 </body>
 </html>
